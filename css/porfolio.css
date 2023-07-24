@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "bebas";
+    src: url("../vendors/BebasNeue-Regular/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url("../vendors/Lobster-Regular/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: "rowdies";
+    src: url("../vendors/Rowdies/Rowdies-Regular.ttf");
+}
+
+@font-face {
+    font-family: "russo";
+    src: url("../vendors/RussoOne-Regular/RussoOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "teko";
+    src: url("../vendors/Teko/Teko-Regular.ttf");
+}
+
+@font-face {
+    font-family: "satisfy";
+    src: url("../vendors/Satisfy/Satisfy-Regular.ttf");
+}
+
+:root {
+    --color-orange-theme: #d94c2a;
+    --color-dark-orange-theme: #262223;
+    --color-dark-background: #1f1f1f;
+    --color-yellow-theme: #fdeb6c;
+    --color-white-theme: #f3e1d3;
+}
+
+body {
+    /* font-size: 1rem; */
+    max-width: 100vw;
+    color: var(--color-white-theme);
+    /* background-color: var(--color-dark); */
+    font-family: sans-serif;
+}
+
+.back-orange {
+    background-color: var(--color-orange-theme) !important;
+}
+
+.back-dark-orange {
+    background-color: var(--color-dark-orange-theme) !important;
+}
+
+.back-dark {
+    background-color: var(--color-dark-background) !important;
+}
+
+.back-yellow {
+    background-color: var(--color-yellow-theme) !important;
+}
+
+.back-white {
+    background-color: var(--color-white-theme) !important;
+}
+
+header,
+section,
+div,
+footer {
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* font-size: 19px; */
+}
